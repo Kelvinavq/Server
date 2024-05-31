@@ -4,8 +4,7 @@
   "description": "Backend for the chat application",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "npm rebuild bcrypt"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
