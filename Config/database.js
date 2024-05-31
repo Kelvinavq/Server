@@ -11,7 +11,7 @@ const mysql = require('mysql');
 
 
 const db = mysql.createConnection({
-    host: '127.0.0.1',          
+    host: '193.203.174.195',          
     user: 'siemprepagachat',              
     password: 'zv6cXmDZy4UuOn4il2CT',              
     database: 'chat-app'        
