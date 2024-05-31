@@ -11,10 +11,10 @@ const mysql = require('mysql');
 
 
 const db = mysql.createConnection({
-    host: '193.203.174.195',          
-    user: 'siemprepagachat',              
-    password: 'zv6cXmDZy4UuOn4il2CT',              
-    database: 'chat-app'        
+    host: 'srv960.hstgr.io',          
+    user: 'u211881118_chat_app',              
+    password: 'Vibradigital2023.',              
+    database: 'u211881118_chat_app'        
 });
 
 // Conectar a la base de datos
