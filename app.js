@@ -17,7 +17,7 @@ const io = socket.init(server);
 
 // Middleware para el análisis del cuerpo de las solicitudes JSON
 app.use(express.json());
-app.use(cors({ origin:"http://localhost:5173", credentials: true }));
+app.use(cors({ origin:["http://localhost:5173", "https://server-4a3z.onrender.com/", "http://localhost"], credentials: true }));
 
 
 // Definir las rutas de la API
